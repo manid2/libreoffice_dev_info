@@ -1,0 +1,73 @@
+# Project level .gitignore file
+# Common code borrowed from https://github.com/github/gitignore
+# NOTE: Parts of common code is modified
+
+#-- repo specific
+tmp/
+logs/
+*.tgz
+*.tar
+*.gz
+*.xz
+*.zip
+eclipse_project/
+
+#-- vim.gitignore
+# refer github@gitignore/Global/Vim.gitignore
+# Swap
+[._]*.swp
+
+# Temporary
+*~
+# Persistent undo
+[._]*.un~
+
+#-- VisualStudioCode.gitignore
+# refer github@gitignore/Global/VisualStudioCode.gitignore
+.vscode/*
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+#-- Autotools.gitignore
+# manually created
+build/
+
+# automake
+build-*/
+autom4te.cache/
+configure
+Makefile.in
+Makefile
+*.in
+
+# autoscan generated files
+autoscan.log
+configure.scan
+
+# m4 generated files
+aclocal.m4
+libtool.m4
+lt~obsolete.m4
+ltoptions.m4
+ltsugar.m4
+ltversion.m4
+
+# binaries
+*.a
+*.core
+*.moc
+*.o
+*.obj
+*.so
+*.so.*
+*.debug
+*.dll
+*.exe
+*.log
+*.trs

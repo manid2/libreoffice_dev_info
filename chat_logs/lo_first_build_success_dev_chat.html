@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>LibreOffice first build success chat on #libreoffice-dev</title>
+</head>
+<body>
+<h1>LibreOffice first build success chat on #libreoffice-dev</h1>
+<span style='font-weight: normal;'><font size="2">(03:12:28 PM IST) </font></span><b><font size="3">The topic for #libreoffice-dev is: LibreOffice is 10 years now! | This is the DEVELOPER channel. For user questions &amp; problems without code go to #libreoffice, bug reports/feature requests: <a href="http://tdf.io/bugs">http://tdf.io/bugs</a> | 7.0.4 and 7.1.1 are out, master is for 7.2 | <a href="http://wiki.documentfoundation.org/Development">http://wiki.documentfoundation.org/Development</a> | <a href="https://paste.debian.net/">https://paste.debian.net/</a> for build logs | dev list: <a href="mailto:libreoffice@lists.freedesktop.org">libreoffice@lists.freedesktop.org</a></font></b><br>
+<span style='font-weight: normal;'><font size="2">(03:12:28 PM IST) </font></span><b><font size="3">Topic for #libreoffice-dev set by erAck!~erack@dynamic-077-000-184-114.77.0.pool.telefonica.de at 06:12:57 PM IST on 04/03/21</font></b><br>
+328: <a href="http://libreoffice.org">http://libreoffice.org</a><br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:12:42 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>hello<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:12:52 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>I started build for first time today morning<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:13:20 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>its been 3 hrs since I started it still building<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:13:43 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>I am not able to tell how much progress and how much more time it will take<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:13:50 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>anybody has any pointers?<br>
+<span style='font-weight: normal;'><font size="2"><font color="#84ed36">(03:13:59 PM IST) </font></font></span><span style='font-weight: normal;color: #84ed36;'>mikekaganski: </span>pointers to what?<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:14:09 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>how much is currently built<br>
+<span style='font-weight: normal;'><font size="2"><font color="#84ed36">(03:14:14 PM IST) </font></font></span><span style='font-weight: normal;color: #84ed36;'>mikekaganski: </span>there was no question, just some statements :-)<br>
+<span style='font-weight: normal;'><font size="2"><font color="#84ed36">(03:14:27 PM IST) </font></font></span><span style='font-weight: normal;color: #84ed36;'>mikekaganski: </span>ah, so what is the current line looks like?<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:14:42 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>[CXX] sc/source/ui/vba/vbawindows.cxx [CXX] sc/source/ui/vba/vbaworkbook.cxx [CXX] sc/source/ui/vba/vbaworkbooks.cxx<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:14:48 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>it is here now<br>
+<span style='font-weight: normal;'><font size="2"><font color="#84ed36">(03:15:28 PM IST) </font></font></span><span style='font-weight: normal;color: #84ed36;'>mikekaganski: </span>sc is about 4/5 to the end, with only sw after that, which is also rather long<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:15:34 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>I could not make out the build order from makefile :-( I am not expert in makefile code<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:16:19 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>I think sw is over because i saw it before<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f63d2">(03:17:42 PM IST) </font></font></span><span style='font-weight: bold;color: #3f63d2;'>***mikekaganski </span>thinks that the bits of sw that could appear before sc are just some small parts required by other modules, and most of sw is ahead<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:18:04 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>oh ok<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:18:22 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>so is it 80% completed?<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:18:37 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>[CXX] reportdesign/source/core/sdr/UndoEnv.cxx -&gt; current line<br>
+<span style='font-weight: normal;'><font size="2">(03:20:27 PM IST) </font></span><b><font size="3">Andre21|2 [<i>~Andre21@77.64.144.54</i>] entered the room.</font></b><br>
+<span style='font-weight: normal;'><font size="2">(03:35:22 PM IST) </font></span><b><font size="3">bayramcicek left the room (quit: Ping timeout: 240 seconds).</font></b><br>
+<span style='font-weight: normal;'><font size="2">(03:37:19 PM IST) </font></span><b><font size="3">kara_ left the room (quit: Read error: Connection reset by peer).</font></b><br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:37:28 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>my build completed finally :)<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:38:50 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>approx ~= 4hrs for a full debug build on my pc, also it consumes 34GB on SSD<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:39:03 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>very excited start exploring the code and make contributions<br>
+<span style='font-weight: normal;'><font size="2"><font color="#84ed36">(03:14:14 PM IST) </font></font></span><span style='font-weight: normal;color: #84ed36;'>mikekaganski: </span>manid2: great!<br>
+<span style='font-weight: normal;'><font size="2"><font color="#3f7cd4">(03:39:03 PM IST) </font></font></span><span style='font-weight: bold;color: #3f7cd4;'>manid2: </span>mikekaganski: thanks for your help :)<br>
+</body>
+</html>

@@ -1,0 +1,476 @@
+%YAML 1.2
+---
+# github.com/AlDanial/cloc
+header :
+  cloc_url           : github.com/AlDanial/cloc
+  cloc_version       : 1.82
+  elapsed_seconds    : 1205.41767787933
+  n_files            : 172536
+  n_lines            : 50174894
+  files_per_second   : 143.133789362986
+  lines_per_second   : 41624.4882755259
+'D' :
+  nFiles: 13800
+  blank: 3068417
+  comment: 186
+  code: 9075174
+'C++' :
+  nFiles: 22183
+  blank: 1186317
+  comment: 950047
+  code: 7987881
+'C/C++ Header' :
+  nFiles: 42797
+  blank: 984915
+  comment: 1416143
+  code: 5144980
+'HTML' :
+  nFiles: 22077
+  blank: 146968
+  comment: 109288
+  code: 3875629
+'C' :
+  nFiles: 6531
+  blank: 603347
+  comment: 802512
+  code: 3648507
+'Bourne Shell' :
+  nFiles: 914
+  blank: 270645
+  comment: 244667
+  code: 1518815
+'make' :
+  nFiles: 4241
+  blank: 83015
+  comment: 80593
+  code: 1336189
+'SVG' :
+  nFiles: 32951
+  blank: 2476
+  comment: 153
+  code: 907843
+'XML' :
+  nFiles: 5857
+  blank: 22577
+  comment: 20913
+  code: 680216
+'Glade' :
+  nFiles: 1167
+  blank: 29
+  comment: 4405
+  code: 596535
+'Java' :
+  nFiles: 5365
+  blank: 128570
+  comment: 307822
+  code: 575723
+'Bourne Again Shell' :
+  nFiles: 169
+  blank: 75795
+  comment: 111191
+  code: 436142
+'PO File' :
+  nFiles: 349
+  blank: 125567
+  comment: 153126
+  code: 371241
+'JSON' :
+  nFiles: 685
+  blank: 134
+  comment: 0
+  code: 362684
+'IDL' :
+  nFiles: 5488
+  blank: 82208
+  comment: 1
+  code: 329945
+'Assembly' :
+  nFiles: 221
+  blank: 11176
+  comment: 14382
+  code: 309438
+'m4' :
+  nFiles: 305
+  blank: 31846
+  comment: 9434
+  code: 288515
+'Perl' :
+  nFiles: 879
+  blank: 42886
+  comment: 39684
+  code: 264624
+'MSBuild script' :
+  nFiles: 287
+  blank: 12
+  comment: 21
+  code: 125813
+'SQL' :
+  nFiles: 752
+  blank: 27174
+  comment: 19608
+  code: 121017
+'Python' :
+  nFiles: 1264
+  blank: 30643
+  comment: 43449
+  code: 118231
+'JavaScript' :
+  nFiles: 623
+  blank: 8639
+  comment: 12290
+  code: 98636
+'XSLT' :
+  nFiles: 159
+  blank: 3939
+  comment: 7392
+  code: 82954
+'Windows Module Definition' :
+  nFiles: 100
+  blank: 266
+  comment: 1680
+  code: 79178
+'yacc' :
+  nFiles: 31
+  blank: 8417
+  comment: 5086
+  code: 68203
+'Pascal' :
+  nFiles: 43
+  blank: 6033
+  comment: 1001
+  code: 45441
+'TeX' :
+  nFiles: 9
+  blank: 4237
+  comment: 12046
+  code: 39755
+'MUMPS' :
+  nFiles: 30
+  blank: 1
+  comment: 0
+  code: 38018
+'GLSL' :
+  nFiles: 685
+  blank: 1715
+  comment: 320
+  code: 27000
+'Markdown' :
+  nFiles: 268
+  blank: 9318
+  comment: 2
+  code: 25076
+'CMake' :
+  nFiles: 315
+  blank: 5110
+  comment: 5139
+  code: 23232
+'Qt Project' :
+  nFiles: 115
+  blank: 666
+  comment: 0
+  code: 19963
+'Objective C++' :
+  nFiles: 118
+  blank: 3749
+  comment: 2539
+  code: 18509
+'CSS' :
+  nFiles: 90
+  blank: 1902
+  comment: 1187
+  code: 12483
+'C#' :
+  nFiles: 66
+  blank: 1489
+  comment: 2061
+  code: 10588
+'Visual Basic' :
+  nFiles: 259
+  blank: 1913
+  comment: 2495
+  code: 9404
+'lex' :
+  nFiles: 23
+  blank: 2130
+  comment: 2883
+  code: 9255
+'YAML' :
+  nFiles: 128
+  blank: 177
+  comment: 2036
+  code: 8598
+'Fortran 77' :
+  nFiles: 4
+  blank: 636
+  comment: 1785
+  code: 8199
+'XSD' :
+  nFiles: 49
+  blank: 957
+  comment: 667
+  code: 8057
+'Windows Resource File' :
+  nFiles: 152
+  blank: 1487
+  comment: 1088
+  code: 6527
+'Visualforce Component' :
+  nFiles: 439
+  blank: 216
+  comment: 3772
+  code: 6241
+'DOS Batch' :
+  nFiles: 110
+  blank: 1135
+  comment: 700
+  code: 5233
+'INI' :
+  nFiles: 15
+  blank: 931
+  comment: 0
+  code: 4787
+'reStructuredText' :
+  nFiles: 62
+  blank: 2103
+  comment: 2141
+  code: 4161
+'Objective C' :
+  nFiles: 25
+  blank: 906
+  comment: 993
+  code: 3507
+'DTD' :
+  nFiles: 27
+  blank: 945
+  comment: 2733
+  code: 3397
+'Ant' :
+  nFiles: 23
+  blank: 510
+  comment: 727
+  code: 2842
+'SKILL' :
+  nFiles: 7
+  blank: 82
+  comment: 77
+  code: 2469
+'awk' :
+  nFiles: 28
+  blank: 310
+  comment: 1184
+  code: 2431
+'Specman e' :
+  nFiles: 22
+  blank: 785
+  comment: 986
+  code: 2321
+'Lisp' :
+  nFiles: 12
+  blank: 509
+  comment: 441
+  code: 1888
+'CUDA' :
+  nFiles: 23
+  blank: 354
+  comment: 331
+  code: 1295
+'Qt' :
+  nFiles: 6
+  blank: 0
+  comment: 7
+  code: 1119
+'ASP.NET' :
+  nFiles: 3
+  blank: 62
+  comment: 0
+  code: 1090
+'NAnt script' :
+  nFiles: 10
+  blank: 136
+  comment: 0
+  code: 1002
+'Rust' :
+  nFiles: 3
+  blank: 261
+  comment: 462
+  code: 913
+'Protocol Buffers' :
+  nFiles: 4
+  blank: 75
+  comment: 34
+  code: 879
+'SWIG' :
+  nFiles: 2
+  blank: 164
+  comment: 150
+  code: 852
+'Go' :
+  nFiles: 3
+  blank: 141
+  comment: 158
+  code: 783
+'RobotFramework' :
+  nFiles: 6
+  blank: 10
+  comment: 45
+  code: 771
+'TypeScript' :
+  nFiles: 2
+  blank: 204
+  comment: 294
+  code: 733
+'Dockerfile' :
+  nFiles: 22
+  blank: 161
+  comment: 112
+  code: 676
+'Jam' :
+  nFiles: 43
+  blank: 166
+  comment: 361
+  code: 658
+'Maven' :
+  nFiles: 3
+  blank: 39
+  comment: 97
+  code: 637
+'JSON5' :
+  nFiles: 1
+  blank: 100
+  comment: 48
+  code: 608
+'Korn Shell' :
+  nFiles: 5
+  blank: 83
+  comment: 165
+  code: 526
+'Gradle' :
+  nFiles: 8
+  blank: 63
+  comment: 73
+  code: 486
+'Starlark' :
+  nFiles: 1
+  blank: 103
+  comment: 552
+  code: 346
+'ASP' :
+  nFiles: 6
+  blank: 39
+  comment: 9
+  code: 266
+'ERB' :
+  nFiles: 1
+  blank: 36
+  comment: 13
+  code: 182
+'ReasonML' :
+  nFiles: 3
+  blank: 154
+  comment: 1126
+  code: 181
+'sed' :
+  nFiles: 13
+  blank: 9
+  comment: 31
+  code: 179
+'AsciiDoc' :
+  nFiles: 2
+  blank: 57
+  comment: 4
+  code: 149
+'XHTML' :
+  nFiles: 15
+  blank: 22
+  comment: 0
+  code: 141
+'Gencat NLS' :
+  nFiles: 1
+  blank: 2
+  comment: 0
+  code: 130
+'WiX include' :
+  nFiles: 8
+  blank: 63
+  comment: 5
+  code: 106
+'Expect' :
+  nFiles: 1
+  blank: 0
+  comment: 0
+  code: 104
+'Ruby' :
+  nFiles: 1
+  blank: 20
+  comment: 46
+  code: 95
+'PHP' :
+  nFiles: 2
+  blank: 28
+  comment: 27
+  code: 82
+'Velocity Template Language' :
+  nFiles: 1
+  blank: 11
+  comment: 29
+  code: 69
+'Fortran 90' :
+  nFiles: 1
+  blank: 4
+  comment: 2
+  code: 54
+'Lua' :
+  nFiles: 1
+  blank: 11
+  comment: 2
+  code: 54
+'Windows Message File' :
+  nFiles: 3
+  blank: 8
+  comment: 30
+  code: 53
+'C Shell' :
+  nFiles: 3
+  blank: 12
+  comment: 37
+  code: 47
+'PowerShell' :
+  nFiles: 1
+  blank: 10
+  comment: 26
+  code: 47
+'Tcl/Tk' :
+  nFiles: 1
+  blank: 2
+  comment: 7
+  code: 45
+'Vala Header' :
+  nFiles: 1
+  blank: 1
+  comment: 0
+  code: 38
+'WiX source' :
+  nFiles: 4
+  blank: 24
+  comment: 0
+  code: 24
+'Cython' :
+  nFiles: 1
+  blank: 7
+  comment: 4
+  code: 15
+'Prolog' :
+  nFiles: 1
+  blank: 4
+  comment: 0
+  code: 14
+'TOML' :
+  nFiles: 1
+  blank: 0
+  comment: 0
+  code: 11
+SUM:
+  blank: 6998576
+  comment: 4407363
+  code: 38768955
+  nFiles: 172536

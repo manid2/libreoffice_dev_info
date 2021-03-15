@@ -1,0 +1,131 @@
+<html><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style type="text/css" id="dark-mode-custom-style" lang="en"></style><style type="text/css" id="dark-mode-native-style" lang="en"></style><head><meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Conversation with buovjaga at Wednesday 10 March 2021 05:59:34 PM on manid2@chat.freenode.net (irc)</title></head><body><h3>Conversation with buovjaga at Wednesday 10 March 2021 05:59:34 PM on manid2@chat.freenode.net (irc)</h3>
+<font color="#A82F2F"><font size="2">(05:59:34 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> Hi, which Linux distribution are you using?<br>
+<font color="#A82F2F"><font size="2">(06:01:20 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> Did you try building yet?<br>
+<font color="#16569E"><font size="2">(06:02:59 PM IST)</font> <b>manid2:</b></font> hi<br>
+<font color="#16569E"><font size="2">(06:03:11 PM IST)</font> <b>manid2:</b></font> I am using Ubuntu linux<br>
+<font color="#16569E"><font size="2">(06:03:25 PM IST)</font> <b>manid2:</b></font> No I have not yet started with building LibreOffice<br>
+<font color="#A82F2F"><font size="2">(06:03:35 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> ok, https://wiki.documentfoundation.org/Development/BuildingOnLinux<br>
+<font color="#A82F2F"><font size="2">(06:04:02 PM IST)</font> <b>Ilmari Lauhakangas:</b></font>
+ After you have built successfully, you can pick a task from the 
+difficultyBeginner category 
+https://wiki.documentfoundation.org/Development/EasyHacks/by_Required_Skill/Skill_C%2B%2B<br>
+<font color="#A82F2F"><font size="2">(06:04:12 PM IST)</font> <b>Ilmari Lauhakangas:</b></font>
+ When you start working on the easy hack, follow these steps 
+https://wiki.documentfoundation.org/Development/gerrit/SubmitPatch#Submit_a_patch_for_review_with_gerrit<br>
+<font color="#A82F2F"><font size="2">(06:04:20 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> For setting up access to Gerrit code review, follow https://wiki.documentfoundation.org/Development/gerrit/setup<br>
+<font color="#16569E"><font size="2">(06:04:25 PM IST)</font> <b>manid2:</b></font> ok sure<br>
+<font color="#A82F2F"><font size="2">(06:04:28 PM IST)</font> <b>Ilmari Lauhakangas:</b></font>
+ I wrote a little bit about the difference between Gerrit and GitHub 
+workflows 
+https://wiki.documentfoundation.org/Development/gerrit#Gerrit_workflow_compared_to_GitHub.2FGitLab<br>
+<font color="#A82F2F"><font size="2">(06:04:36 PM IST)</font> <b>Ilmari Lauhakangas:</b></font>
+ Some of the easy hacks can be worked on by multiple people, over 
+several years. You can examine the previous commits by clicking on the 
+links in the Bugzilla comments.<br>
+<font color="#A82F2F"><font size="2">(06:04:46 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> Often there is important information among the comments left at a later date<br>
+<font color="#16569E"><font size="2">(06:04:52 PM IST)</font> <b>manid2:</b></font> I have spent last two days by reading the documents to understand how to contribute to LibreOffice<br>
+<font color="#A82F2F"><font size="2">(06:05:03 PM IST)</font> <b>Ilmari Lauhakangas:</b></font>
+ as mentioned in the patch submission article, note that if you need to 
+make changes to your patch, you will be amending the same commit and 
+sending new versions towards the same patch - you will not abandon your 
+patch<br>
+<font color="#A82F2F"><font size="2">(06:05:14 PM IST)</font> <b>Ilmari Lauhakangas:</b></font>
+ The wiki pages have lots of information that you can absorb gradually. 
+This is a nice collection/portal of useful bits: 
+https://wiki.documentfoundation.org/Development/GeneralProgrammingGuidelines<br>
+<font color="#A82F2F"><font size="2">(06:05:23 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> After you try one or two of the more trivial easy hacks, we can get into automated testing<br>
+<font color="#A82F2F"><font size="2">(06:05:31 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> what sort of specs does your computer have, CPU, RAM?<br>
+<font color="#16569E"><font size="2">(06:05:47 PM IST)</font> <b>manid2:</b></font> ok i will post it<br>
+<font color="#16569E"><font size="2">(06:08:54 PM IST)</font> <b>manid2:</b></font> OS: Ubuntu 20.04.2 LTS x86_64<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> Host: VirtualBox 1.2<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> Kernel: 5.4.0-66-generic<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> Shell: bash 5.0.17<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> Resolution: 1920x975<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> DE: GNOME<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> WM: Mutter<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> WM Theme: Qogir-dark<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> Theme: Qogir-dark [GTK2/3]<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> Icons: Qogir [GTK2/3]<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> Terminal: terminator<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> CPU: Intel i5-8250U (4) @ 1.799GHz<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> GPU: 00:02.0 VMware SVGA II Adapter<br>
+<font color="#16569E"><font size="2">(06:08:55 PM IST)</font> <b>manid2:</b></font> Memory: 6824MiB / 8201MiB<br>
+<font color="#A82F2F"><font size="2">(06:09:17 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> oh, you are running Ubuntu in a VM<br>
+<font color="#16569E"><font size="2">(06:09:24 PM IST)</font> <b>manid2:</b></font> hi i am sorry, I tried to paste my cpu information<br>
+<font color="#A82F2F"><font size="2">(06:09:26 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> Is your host OS Windows?<br>
+<font color="#16569E"><font size="2">(06:09:29 PM IST)</font> <b>manid2:</b></font> yes<br>
+<font color="#16569E"><font size="2">(06:09:36 PM IST)</font> <b>manid2:</b></font> i have two PCs<br>
+<font color="#16569E"><font size="2">(06:09:46 PM IST)</font> <b>manid2:</b></font> one from work and one my own<br>
+<font color="#A82F2F"><font size="2">(06:09:59 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> aha... I'm just worried that Virtualbox overhead would make it slower for you to build<br>
+<font color="#16569E"><font size="2">(06:10:01 PM IST)</font> <b>manid2:</b></font> My work pc is faster and better specs<br>
+<font color="#A82F2F"><font size="2">(06:10:10 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> ok, cool<br>
+<font color="#16569E"><font size="2">(06:10:16 PM IST)</font> <b>manid2:</b></font> ok i will check that<br>
+<font color="#A82F2F"><font size="2">(06:10:27 PM IST)</font> <b>Ilmari Lauhakangas:</b></font>
+ When you run plain make, it will not run tests. Then, make check will 
+run the tests. It is a good idea to first run without tests, so you get a
+ working build if it succeeds<br>
+<font color="#A82F2F"><font size="2">(06:10:34 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> after you have a full build, your own changes are much quicker to build<br>
+<font color="#A82F2F"><font size="2">(06:10:40 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> because the build system is incremental<br>
+<font color="#A82F2F"><font size="2">(06:10:48 PM IST)</font> <b>Ilmari Lauhakangas:</b></font>
+ so you only need to plan ahead for the longer build times, when you 
+pull in many changes from others (you do need to synch things up every 
+once in a while)<br>
+<font color="#16569E"><font size="2">(06:10:51 PM IST)</font> <b>manid2:</b></font> I understand the complexity of the code in LibreOffice as I work in large code base similar to LibreOffice<br>
+<font color="#A82F2F"><font size="2">(06:11:19 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> yeah, and you don't need to understand large parts of the code base to work on issues :)<br>
+<font color="#A82F2F"><font size="2">(06:11:29 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> I can email you this chat log after we are done<br>
+<font color="#16569E"><font size="2">(06:11:30 PM IST)</font> <b>manid2:</b></font> yes I understand<br>
+<font color="#A82F2F"><font size="2">(06:11:35 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> (if you want)<br>
+<font color="#16569E"><font size="2">(06:11:37 PM IST)</font> <b>manid2:</b></font> ok sure,<br>
+<font color="#16569E"><font size="2">(06:11:46 PM IST)</font> <b>manid2:</b></font> FYI now I am using pidgin<br>
+<font color="#16569E"><font size="2">(06:11:51 PM IST)</font> <b>manid2:</b></font> for IRC<br>
+<font color="#A82F2F"><font size="2">(06:11:56 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> aha cool, can you see it logging the chat?<br>
+<font color="#16569E"><font size="2">(06:12:01 PM IST)</font> <b>manid2:</b></font> Also using AndroidIRC <br>
+<font color="#16569E"><font size="2">(06:12:07 PM IST)</font> <b>manid2:</b></font> yes so far<br>
+<font color="#16569E"><font size="2">(06:12:19 PM IST)</font> <b>manid2:</b></font> but I have not yet closed it and reopened<br>
+<font color="#16569E"><font size="2">(06:12:48 PM IST)</font> <b>manid2:</b></font> Also I noticed it tries to re-connect and re-enter channels when I close and open AndroidIRC<br>
+<font color="#A82F2F"><font size="2">(06:13:07 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> let's check the pidgin log location<br>
+<font color="#16569E"><font size="2">(06:13:08 PM IST)</font> <b>manid2:</b></font> I thought this will be irritating for other members<br>
+<font color="#16569E"><font size="2">(06:13:14 PM IST)</font> <b>manid2:</b></font> ok<br>
+<font color="#A82F2F"><font size="2">(06:13:25 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> hmm https://www.unixmen.com/find-pidgin-chat-logs-files-linux-box/<br>
+<font color="#16569E"><font size="2">(06:13:42 PM IST)</font> <b>manid2:</b></font> I can save this log  using Save As option <br>
+<font color="#A82F2F"><font size="2">(06:13:48 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> do you see such a hidden .purple directory in your home?<br>
+<font color="#16569E"><font size="2">(06:13:56 PM IST)</font> <b>manid2:</b></font> ok let me check<br>
+<font color="#A82F2F"><font size="2">(06:14:03 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> ok nice, then I don't need to email you the log :)<br>
+<font color="#16569E"><font size="2">(06:14:31 PM IST)</font> <b>manid2:</b></font> ok pls email me if I can't access it :)<br>
+<font color="#A82F2F"><font size="2">(06:14:43 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> sure, they are on my server<br>
+<font color="#A82F2F"><font size="2">(06:15:23 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> I guess we could chat again in the week of 22-28 March, if it's ok for you<br>
+<font color="#16569E"><font size="2">(06:15:46 PM IST)</font> <b>manid2:</b></font> can we insert/paste images in irc chats?<br>
+<font color="#A82F2F"><font size="2">(06:16:02 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> not normally<br>
+<font color="#16569E"><font size="2">(06:16:19 PM IST)</font> <b>manid2:</b></font> ok i just wanted share the pidgin saved file for this chat<br>
+<font color="#16569E"><font size="2">(06:16:57 PM IST)</font> <b>manid2:</b></font> I will get started with building LibreOffice and start working on Easy hacks<br>
+<font color="#A82F2F"><font size="2">(06:17:09 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> any preferred date &amp; time during 22-28 March?<br>
+<font color="#A82F2F"><font size="2">(06:17:40 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> Wednesday 24 March at this same time?<br>
+<font color="#16569E"><font size="2">(06:17:57 PM IST)</font> <b>manid2:</b></font> May I know if I can get full time paid opportunities by working at LibreOffice?<br>
+<font color="#A82F2F"><font size="2">(06:18:28 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> Yes, it is possible. There are commercial companies working in the ecosystem.<br>
+<font color="#A82F2F"><font size="2">(06:18:35 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> Dozens of people get paid<br>
+<font color="#A82F2F"><font size="2">(06:19:00 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> The Document Foundation itself employs 11 people and currently recruiting a 12th<br>
+<font color="#16569E"><font size="2">(06:19:04 PM IST)</font> <b>manid2:</b></font> &gt;&gt; Wednesday 24 March at this same time?<br>
+<font color="#16569E"><font size="2">(06:19:04 PM IST)</font> <b>manid2:</b></font> Due to my current full time job I can only work as volunteer and not in any fixed timings<br>
+<font color="#A82F2F"><font size="2">(06:19:51 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> But it is more efficient for you to get involved, if we have these scheduled chats<br>
+<font color="#A82F2F"><font size="2">(06:20:19 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> So could we schedule a chat for some time and then you can cancel it, if it looks like you can't make it?<br>
+<font color="#16569E"><font size="2">(06:20:45 PM IST)</font> <b>manid2:</b></font> We can discuss again on every Tuesday at 5pm<br>
+<font color="#16569E"><font size="2">(06:21:17 PM IST)</font> <b>manid2:</b></font> This time will be best for me :) is it ok for you too?<br>
+<font color="#A82F2F"><font size="2">(06:22:06 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> so 5 pm IST?<br>
+<font color="#16569E"><font size="2">(06:22:12 PM IST)</font> <b>manid2:</b></font> yes sure<br>
+<font color="#A82F2F"><font size="2">(06:22:34 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> ok, that would be 13:30 Helsinki time... yes, it works for me on Tuesday 23 March<br>
+<font color="#16569E"><font size="2">(06:22:35 PM IST)</font> <b>manid2:</b></font> 6 PM becomes too late and I have to do other tasks<br>
+<font color="#16569E"><font size="2">(06:22:53 PM IST)</font> <b>manid2:</b></font> ok thanks<br>
+<font color="#A82F2F"><font size="2">(06:23:19 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> have fun and happy hacking :)  feel free to email me at ilmari.lauhakangas@libreoffice.org about anything<br>
+<font color="#16569E"><font size="2">(06:23:21 PM IST)</font> <b>manid2:</b></font> May I know what to do my pc is not powerful enough to support LibreOffice build<br>
+<font color="#A82F2F"><font size="2">(06:23:39 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> if you have 8GB of memory, I think you will be fine<br>
+<font color="#16569E"><font size="2">(06:23:51 PM IST)</font> <b>manid2:</b></font> ok<br>
+<font color="#A82F2F"><font size="2">(06:24:04 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> more mem is better<br>
+<font color="#16569E"><font size="2">(06:24:07 PM IST)</font> <b>manid2:</b></font> is there build servers we can log into ?<br>
+<font color="#16569E"><font size="2">(06:24:14 PM IST)</font> <b>manid2:</b></font> *any<br>
+<font color="#A82F2F"><font size="2">(06:24:20 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> we only have automated build servers<br>
+<font color="#16569E"><font size="2">(06:24:32 PM IST)</font> <b>manid2:</b></font> ok<br>
+<font color="#16569E"><font size="2">(06:25:12 PM IST)</font> <b>manid2:</b></font> Let me start with the first steps you have mentioned and then we can discuss more in our next weekly meeting<br>
+<font color="#A82F2F"><font size="2">(06:25:21 PM IST)</font> <b>Ilmari Lauhakangas:</b></font> right on<br>
+<font color="#16569E"><font size="2">(06:25:54 PM IST)</font> <b>manid2:</b></font> ok bye and thanks a lot for all the information and kindness :)<br>
+
+</body></html>
