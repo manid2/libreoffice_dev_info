@@ -1,0 +1,17 @@
+# This may be starting point of LibreOffice main app binary
+
+desktop/source/app/sofficemain.cxx:29:// needed before sal/main.h to avoid redefinition of macros
+desktop/source/app/sofficemain.cxx:34:#include <sal/main.h>
+desktop/source/app/main.c:20:#include <sal/main.h>
+desktop/source/app/app.cxx:1424:       the main thread is not yet in the event loop.
+desktop/source/app/app.cxx:2323:            // NOTICE: The quickstart service must be initialized inside the "main thread", so we use the
+desktop/source/app/app.cxx:2324:            // application events to do this (they are executed inside main thread)!!!
+desktop/source/lib/init.cxx:168:// We also need to hackily be able to start the main libreoffice thread:
+desktop/source/lib/init.cxx:6342:                // Start the main thread only in non-unipoll mode (i.e. multithreaded).
+desktop/source/migration/migration.cxx:178:// The main entry point for migrating settings
+desktop/qa/desktop_lib/test_desktop_lib.cxx:955:    // Insert a comment at the beginning of the document and wait till the main
+desktop/unx/source/start.c:35:#include <sal/main.h>
+desktop/unx/source/start.c:128:    /* start the main process */
+desktop/Executable_soffice_bin.mk:23:    desktop/source/app/main \
+desktop/win32/source/officeloader/unopkg_com.cxx:13:int main(int /*argc*/, char** /*argv*/)
+desktop/win32/source/officeloader/soffice_com.cxx:13:int main(int /*argc*/, char** /*argv*/)
